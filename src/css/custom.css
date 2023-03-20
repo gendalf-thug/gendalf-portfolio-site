@@ -1,0 +1,26 @@
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ifm-color-primary: #00a9d3;
+  --ifm-color-primary-dark: #00a9d3;
+  --ifm-color-primary-darker: #00a9d3;
+  --ifm-color-primary-darkest: #00a9d3;
+  --ifm-color-primary-light: #00a9d3;
+  --ifm-color-primary-lighter: #00a9d3;
+  --ifm-color-primary-lightest: #00a9d3;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #2596c2;
+  --ifm-color-primary-dark: #2184af;
+  --ifm-color-primary-darker: #1f7ba5;
+  --ifm-color-primary-darkest: #1a6388;
+  --ifm-color-primary-light: #299cd5;
+  --ifm-color-primary-lighter: #329bd8;
+  --ifm-color-primary-lightest: #4fb0dd;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
