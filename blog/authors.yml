@@ -1,17 +1,11 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+vadim:
+  name: Prasolov Vadim
+  title: FullStack developer
+  url: https://github.com/taZik616
+  image_url: https://gendalf-portfolio-site.vercel.app/img/Vadim.jpg
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+sveta:
+  name: Svetlana Shumilina
+  title: Designer and beautiful girl ❤️
+  url: https://www.behance.net/sveta4
+  image_url: https://mir-s3-cdn-cf.behance.net/user/230/5ab4651167202465.6402cad2bbc60.jpg
