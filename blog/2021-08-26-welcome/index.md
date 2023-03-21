@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [sveta]
+authors: [vadim]
 tags: [facebook, hello, docusaurus]
 ---
 
