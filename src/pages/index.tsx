@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Layout from '@theme/Layout';
@@ -12,11 +11,16 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">
-          Выхожу на ринг, бой с самим с собой, кто же победит? 🎶
-        </h1>
-        <div className="rounded-[120px] overflow-hidden">
-          <img src="img/yanix.png" />
+        <div className="flex flex-1 relative aspect-[1.534]">
+          <img
+            className="rounded-xl absolute overflow-hidden"
+            src="img/yanix.png"
+          />
+          <div className="absolute w-full bottom-[5%]">
+            <h3 className="z-10 sm:text-xl text-xs text-white self-center inline-block bg-black">
+              Выхожу на ринг, бой с самим с собой, кто же победит? 🎶
+            </h3>
+          </div>
         </div>
       </div>
     </header>

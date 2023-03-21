@@ -6,14 +6,14 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  imgSource: any;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'Лучшие инструменты',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    imgSource: 'img/MainPageFeatures/toolbox.png',
     description: (
       <>
         На этом сайте я собрал инструменты которые были проверенны мною в боевых
@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Мой блог',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    imgSource: 'img/MainPageFeatures/blog.png',
     description: (
       <>
         В разделе блога я буду делиться своими успехами как в жизни так и в
@@ -33,7 +33,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Вы тоже участник',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    imgSource: 'img/MainPageFeatures/ITCommunity.png',
     description: (
       <>
         Весь код этого сайта находиться в открытом доступе и вы всегда можете
@@ -43,11 +43,15 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, imgSource, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img
+          src={imgSource}
+          className="w-[200px] h-[112.5px] rounded-[10px]"
+          role="img"
+        />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
