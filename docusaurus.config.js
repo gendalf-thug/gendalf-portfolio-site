@@ -6,7 +6,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Gendalf's portfolio",
+  title: "Gendalf's kingdom",
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -17,7 +17,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'vadim', // Usually your GitHub org/user name.
+  organizationName: 'taZik616', // Usually your GitHub org/user name.
   projectName: 'gendalf-portfolio-site', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -84,7 +84,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: "Gendalf's site",
+        title: "Gendalf's kingdom",
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',

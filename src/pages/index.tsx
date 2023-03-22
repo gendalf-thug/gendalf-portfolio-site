@@ -3,15 +3,12 @@ import React from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Layout from '@theme/Layout';
-import clsx from 'clsx';
-
-import styles from './index.module.css';
 
 function HomepageHeader() {
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className="hero hero--primary py-[4rem] text-center relative overflow-hidden">
       <div className="container">
-        <div className="flex flex-1 relative aspect-[1.534]">
+        <div className="flex flex-1 relative aspect-[1.534] mx-auto max-h-[550px]">
           <img
             className="rounded-xl absolute overflow-hidden"
             src="img/yanix.png"
