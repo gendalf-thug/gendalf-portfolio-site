@@ -6,7 +6,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Gendalf's kingdom",
+  title: 'Королевство Гендальфа',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -27,18 +27,22 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'ru'],
-    localeConfigs: {
-      en: {
-        htmlLang: 'en-GB',
-        label: 'English',
-      },
-      ru: {
-        label: 'Русский',
-      },
-    },
+    defaultLocale: 'ru',
+    locales: ['ru'],
   },
+  // i18n: {
+  //   defaultLocale: 'en',
+  //   locales: ['en', 'ru'],
+  //   localeConfigs: {
+  //     en: {
+  //       htmlLang: 'en-GB',
+  //       label: 'English',
+  //     },
+  //     ru: {
+  //       label: 'Русский',
+  //     },
+  //   },
+  // },
 
   presets: [
     [
@@ -82,11 +86,18 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/site-link-image.png',
+      metadata: [
+        {
+          name: 'keywords',
+          content:
+            'typescript, it, development, react, react native, graphql, personal blog, portfolio',
+        },
+      ],
       navbar: {
-        title: "Gendalf's kingdom",
+        title: 'Королевство Гендальфа',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Site Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -117,7 +128,7 @@ const config = {
             ],
           },
           {
-            title: 'Social links',
+            title: 'Контакты',
             items: [
               {
                 label: 'Github',
@@ -130,19 +141,6 @@ const config = {
               {
                 label: 'VK',
                 href: 'https://vk.com/vadim616rus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/taZik616',
               },
             ],
           },
