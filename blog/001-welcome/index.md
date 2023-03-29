@@ -1,7 +1,6 @@
 ---
 slug: preface
 title: Предисловие
-sidebar_position: 1
 date: 2023-03-23T10:00
 authors: [vadim]
 tags: [hello, preface, start]
