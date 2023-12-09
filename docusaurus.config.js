@@ -138,14 +138,10 @@ const config = {
                 label: 'Telegram',
                 href: 'https://t.me/Gendalf_616',
               },
-              {
-                label: 'VK',
-                href: 'https://vk.com/vadim616rus',
-              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Gendalf Kingdom, built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
